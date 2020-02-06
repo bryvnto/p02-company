@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <title>Shopping Cart | Riley Park Brewing Co.</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Riley Park Brewing Co.</h1>
+    </div>
+
+    <hr class="spacer">
+
+    <div id="nav">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="products.html" class="nav-button">Products</a>
+        <a href="checkout.html" class="nav-button">Shopping Cart</a>
+        <a href="references.html" class="nav-button">References</a>
+    </div>
+
+    <section class="checkout-box">
+        <h3>Checkout Cart</h3>
+
+        <!--https://www.w3schools.com/howto/howto_css_checkout_form.asp-->
+        <div class="border">
+            <h4>Your Cart</h4>
+            <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
+            <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
+            <p><a href="#">Dad Hat</a> <span class="price">$25</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$55</b></span></p>
+
+            <input type="submit" value="Checkout" class="form-button">
+        </div>
+    </section>
+
+    <section>
+        <h3>Payment Page</h3>
+        <form action="#">
+
+
+            <div class="border">
+                <h4>Contact Information</h4>
+                All required fields marked with (*). <br>
+                *Email: <input type="text" name="email" class="text-input"><br>
+                *Phone Number: <input type="text" name="phone" class="text-input">
+            </div>
+
+            <div class="border">
+                <h4>Address</h4>
+                All required fields marked with (*). <br>
+                *First Name: <input type="text" name="first-name" class="text-input"> <br>
+                *Last Name: <input type="text" name="last-name" class="text-input"><br>
+                *Street Address: <input type="text" name="address" class="text-input"> <br>
+                Apt: <input type="text" name="apt" class="text-input"><br>
+                *City: <input type="text" name="city" class="text-input"> <br>
+                *Province/State: <input type="text" name="province" class="text-input"><br> *Country: <select
+                    name="text" id="location" class="text-input">
+                    <option value="#">Select One</option>
+                    <option value="ca">Canada</option>
+                    <option value="us">United States</option>
+                </select> <br>
+                *Postal Code: <input type="text" name="postal" class="text-input">
+            </div>
+
+            <div class="border">
+                <h4>Payment Information</h4>
+                All required fields marked with (*). <br>
+                *Card Number: <input type="text" name="card-num" class="text-input"> <br>
+                *Card Type:
+                <select name="card-type" id="card-type">
+                    <option value="#">Select One</option>
+                    <option value="master">MasterCard</option>
+                    <option value="visa">Visa</option>
+                    <option value="amex">American Express</option>
+                </select> <br>
+                *Expiry (MMYY): <input type="text" name="expire" class="text-input"><br>
+                *CVV/CVC: <input type="text" name="cvv" class="text-input"> <br>
+                *Name on Card: <input type="text" name="card-name" class="text-input">
+            </div>
+
+            <div class="border">
+                <h4>Ready to Go?</h4>
+                <div class="flex-container">
+                    <input type="submit" value="Submit" class="form-button flex-box">
+                    <input type="reset" value="Reset" class="form-button flex-box">
+                </div>
+            </div>
+        </form>
+
+        <hr class="spacer">
+        <hr class="spacer">
+    </section>
+
+</body>
+
+</html>

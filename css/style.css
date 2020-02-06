@@ -1,0 +1,293 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+/* Images */
+
+
+.inspoimg {
+    max-width: 20%;
+    margin: 2rem;
+}
+
+.imglink:hover {
+    box-sizing: border-box;
+    box-shadow: 0 0.8rem 0.8rem rgb(0, 0, 0, 0.3);
+}
+
+.cardimg {
+    max-width:100%;
+}
+
+#colorsample {
+    max-width: 100%;
+}
+
+#nav-logo {
+    max-width: 10%;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/* Text Styling*/
+
+h1 {
+    font-size: 1.8em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p, code, table, form, ol, ul{
+    margin-left: 2.4em;
+    margin-right: 2.4em;
+}
+
+p {
+    text-align: left;
+}
+
+.centeralign {
+    text-align:center;
+}
+
+input {
+    margin: 1em;
+    border-color: #E5D8BF;
+}
+
+ol {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+input:hover {
+    background-color:#E5D8BF;
+}
+
+input{
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #E5D8BF;
+    border-radius: 4px;
+}
+
+.border {
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #96939B;
+}
+
+table {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+td {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom:5px;
+  }
+
+
+  span.price {
+    color: gray;
+    float: right;
+  }
+  
+  
+/* Links + Buttons */
+
+a {
+    text-decoration: none;
+    color: #96939B;
+}
+
+a:hover {
+    color: #CEC2B8;
+    text-decoration: underline;
+}
+
+.nav-button {
+    border: none;
+    color: white;/*#D19F74;*/
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1em;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.nav-button:hover {
+    border: none;
+    color: #E5D8BF;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1em;
+    font-style: italic;
+    border-radius: 5px;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.nav-sample {
+    background: black;
+}
+
+
+section {
+    padding: 2rem;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1462664450306-25ad625a342b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width:100%;
+    top: 0;
+  
+    font-size: 2em;
+    color: white; /*#DAD2D8;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#nav {
+    /* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background:black;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0.2rem 0.2rem rgb(0, 0, 0, 0.3);
+}
+
+.card {
+    /* https://www.w3schools.com/howto/howto_css_cards.asp*/
+    box-shadow: 0 0.2rem 0.2rem rgb(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    margin: 2.4em;
+    
+    flex-basis: 15em;
+    flex-grow: 2;
+}
+
+.card:hover {
+    /* https://www.w3schools.com/howto/howto_css_cards.asp*/
+    box-shadow: 0 0.8rem 0.8rem rgb(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    margin: 2.4em;
+    
+    flex-basis: 15em;
+    flex-grow: 2;
+}
+
+.flex-box {
+    flex-basis: 15em;
+    flex-grow: 3;
+}
+
+.colour-layout {
+    flex-basis: 15em;
+    flex-grow: 2;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.colourbox {
+    width: 5em;
+    height: 5em;
+    margin: 3em;
+
+    flex-basis: 15em;
+    flex-grow: 2;
+
+    float: left;
+}
+
+#colour1 {
+background: #96939B;
+}
+
+#colour2 {
+    background: #DAD2D8;
+}
+
+#colour3{
+    background: #E5D8BF;
+}
+
+#colour4{
+    background: #CEC2B8;
+}
+
+#colour5{
+    background: #B6A1A8;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    padding: 0.2rem 0.16rem;
+} 
+
+hr{
+    width:90%;
+}
+
+.divider{
+    width:90%;
+}
+
+.spacer {
+    width:0%;
+}
+
+.form-button:hover{
+    color: #CEC2B8;
+}
+.form-button{
+    font-family: 'Raleway', sans-serif;
+}
+
+fieldset {
+    color: #96939B;
+}
