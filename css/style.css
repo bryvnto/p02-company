@@ -33,6 +33,9 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.shader {
+    background-color: whitesmoke;
+}
 
 
 /* Text Styling*/
@@ -61,6 +64,7 @@ p, code, table, form, ol, ul{
 
 p {
     text-align: left;
+    color: #96939B;
 }
 
 .centeralign {
@@ -140,7 +144,6 @@ a:hover {
     margin-right: 1.4rem;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-
 }
 
 .nav-button:hover {
@@ -162,14 +165,40 @@ a:hover {
 .nav-sample {
     background: black;
 }
+.alt-button {
+    border: none;
+    background-color: #CEC2B8;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
 
+.alt-button:hover {
+    border: none;
+    background-color: #CEC2B8;
+    color: grey;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
 
 section {
     padding: 2rem;
 }
 
 #header {
-    height: 100vh;
+    height: 95vh;
     background-image: url(https://images.unsplash.com/photo-1462664450306-25ad625a342b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80);
     background-size:cover;
     background-position: center;
@@ -221,6 +250,13 @@ section {
 .flex-box {
     flex-basis: 15em;
     flex-grow: 3;
+}
+
+.text-box{
+    flex-basis: 15em;
+    flex-grow: 3;
+    text-align: left;
+    padding: 3em;
 }
 
 .colour-layout {

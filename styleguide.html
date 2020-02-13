@@ -290,7 +290,7 @@
         </section>
 
         <section>
-            <h3>Product Listing</h3>
+            <h3>Multi-Product Listing</h3>
 
             <div class="flex-container">
                 <div class="card">
@@ -319,20 +319,51 @@
             </div>
         </section>
 
+        <section>
+            <h3>Single Detailed Product Listing</h3>
+            <section>
+
+                <div class="flex-container">
+                    <div class="text-box">
+                        <img src="img/taylor-8Vt2haq8NSQ-unsplash.jpg" alt="Hat " class="cardimg">
+                        <!--https://unsplash.com/photos/8Vt2haq8NSQ-->
+                    </div>
+
+                    <div class="text-box">
+                        <h3>Dad Hat</h3>
+                        <p>This eco-concious hat is a staple in our staff's wardrobe. It's airy, yet stable design
+                            allows for easy movement Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                            ducimus id fugit voluptates minus modi eveniet, quaerat quo quod. Vitae magni, neque
+                            distinctio autem esse excepturi. Adipisci corrupti laboriosam accusamus?</p>
+
+                        <p>Quantity: <select name="quantity" id="quantity">
+                            <option value="#">Select One</option>
+                            <option value="master">1</option>
+                            <option value="visa">2</option>
+                            <option value="amex">3</option>
+                        </select></p>
+
+                        <p><a href="" class="alt-button">Add to Cart</a></p>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
         <section class="checkout-box">
             <h3>Checkout Cart</h3>
 
             <!--https://www.w3schools.com/howto/howto_css_checkout_form.asp-->
-           <div class="border">
-               <h4>Your Cart</h4>
-               <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
-               <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
-               <p><a href="#">Dad Hat</a> <span class="price">$25</span></p>
-               <hr>
-               <p>Total <span class="price" style="color:black"><b>$55</b></span></p>
-         
-            <input type="submit" value="Checkout" class="form-button">
-           </div>
+            <div class="border">
+                <h4>Your Cart</h4>
+                <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
+                <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
+                <p><a href="#">Dad Hat</a> <span class="price">$25</span></p>
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>$55</b></span></p>
+
+                <input type="submit" value="Checkout" class="form-button">
+            </div>
         </section>
 
         <section>
@@ -349,18 +380,19 @@
 
                 <div class="border">
                     <h4>Address</h4>
-                        All required fields marked with (*). <br>
-                        *First Name: <input type="text" name="first-name" class="text-input"> <br>
-                        *Last Name: <input type="text" name="last-name" class="text-input"><br>
-                        *Street Address: <input type="text" name="address" class="text-input"> <br>
-                        Apt: <input type="text" name="apt" class="text-input"><br>
-                        *City: <input type="text" name="city" class="text-input"> <br>
-                        *Province/State: <input type="text" name="province" class="text-input"><br>                            *Country: <select name="text" id="location" class="text-input">
-                            <option value="#">Select One</option>
-                            <option value="ca">Canada</option>
-                            <option value="us">United States</option>
-                        </select> <br>
-                        *Postal Code: <input type="text" name="postal" class="text-input">
+                    All required fields marked with (*). <br>
+                    *First Name: <input type="text" name="first-name" class="text-input"> <br>
+                    *Last Name: <input type="text" name="last-name" class="text-input"><br>
+                    *Street Address: <input type="text" name="address" class="text-input"> <br>
+                    Apt: <input type="text" name="apt" class="text-input"><br>
+                    *City: <input type="text" name="city" class="text-input"> <br>
+                    *Province/State: <input type="text" name="province" class="text-input"><br> *Country: <select
+                        name="text" id="location" class="text-input">
+                        <option value="#">Select One</option>
+                        <option value="ca">Canada</option>
+                        <option value="us">United States</option>
+                    </select> <br>
+                    *Postal Code: <input type="text" name="postal" class="text-input">
                 </div>
 
                 <div class="border">
@@ -386,7 +418,7 @@
                     </div>
                 </div>
             </form>
-         </section>
+        </section>
         <section>
             <h3>
                 Feedback form
@@ -396,10 +428,10 @@
             </div>
 
             <section class="card" id="popup">
-                    <h3>Let us know how you like our products:</h3>
-                    Please select an item to review
-                    <div class="itemtype">
-                      
+                <h3>Let us know how you like our products:</h3>
+                Please select an item to review
+                <div class="itemtype">
+
                     <select name="item-type" id="item-type">
                         <option value="#">Select One</option>
                         <option value="dadhat">Dad Hat</option>
@@ -410,60 +442,85 @@
                 Overall Rating:
                 <div class="move">
                     <div class="rate">
-                       
-                    <!--Code for star rating adapted from https://codepen.io/hesguru/pen/BaybqXv-->
-                                <input type="radio" id="star5" name="rate" value="5" />
-                                <label for="star5" title="text">5 stars</label>
-                                <input type="radio" id="star4" name="rate" value="4" />
-                                <label for="star4" title="text">4 stars</label>
-                                <input type="radio" id="star3" name="rate" value="3" />
-                                <label for="star3" title="text">3 stars</label>
-                                <input type="radio" id="star2" name="rate" value="2" />
-                                <label for="star2" title="text">2 stars</label>
-                                <input type="radio" id="star1" name="rate" value="1" />
-                                <label for="star1" title="text">1 star</label>
-                            </div>
-                            <br>
-                        </div>
 
-                            Would you recommend this product to a friend?
-                    <div class="recommendation">
-                            <form action="#">
-                               
-                                <input type="radio" name="radio-button"> Yes
-                                <input type="radio" name="radio-button"> No
-                            </form>
-                            <br>
-                         
-                        </div>
-                        Your Review:
-                        <div class="review">
-                            <input type="text" name="email" class="review-input">
-                            </div>
-                            <input type="submit" value="Submit" class="form-button">
-                    
-                              
-            </div>
-                
-             
+                        <!--Code for star rating adapted from https://codepen.io/hesguru/pen/BaybqXv-->
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                    <br>
+                </div>
+
+                Would you recommend this product to a friend?
+                <div class="recommendation">
+                    <form action="#">
+
+                        <input type="radio" name="radio-button"> Yes
+                        <input type="radio" name="radio-button"> No
+                    </form>
+                    <br>
+
+                </div>
+                Your Review:
+                <div class="review">
+                    <input type="text" name="email" class="review-input">
+                </div>
+                <input type="submit" value="Submit" class="form-button">
+
+
+                </div>
+
+
+            </section>
+
+            <section>
+                <div class="border">
+                    <h3>Contact us</h3>
+                    Let us know how we are doing!
+                    <form action="#">
+                        First Name: <input type="text" name="search-field"><br>
+                        Last Name: <input type="text" name="search-field"><br>
+                        Email: <input type="text" name="search-field"><br>
+                        Message:<br><input type="text" name="email" class="review-input">
+                    </form><br>
+                    <input type="submit" value="Submit" class="form-button">
+                </div>
+            </section>
         </section>
 
         <section>
-<div class="border">
-    <h3>Contact us</h3>
-    Let us know how we are doing!
-    <form action="#">
-        First Name: <input type="text" name="search-field"><br>
-        Last Name: <input type="text" name="search-field"><br>
-        Email: <input type="text" name="search-field"><br>
-        Message:<br><input type="text" name="email" class="review-input">
-    </form><br>
-    <input type="submit" value="Submit" class="form-button">
-</div>
+            <h3>About</h3>
+
+            <div class="flex-container">
+                <div class="text-box">
+                    <img src="img/maggie-mccauley-SwhBBzk1lho-unsplash.jpg" alt="Hat " class="cardimg">
+                    <!--https://unsplash.com/photos/SwhBBzk1lho-->
+                </div>
+
+                <div class="text-box">
+                    <h3>Our Story</h3>
+                    <p>During a stroll in their childhood neighbourhood, siblings Benjamin and Isabelle Johnston spotted
+                        a
+                        large retail space for lease in the epicentre of Riley Park, and they knew what they wanted to
+                        do.
+                        They envisioned a space between the pretentious bars and the young nightclubs for the people of
+                        Riley Park and thus, the Riley Park Brewing Company was born.</p>
+
+                    <p>It was the perfect balance that Riley Park needed. The once sleepy neighbourhood became more
+                        lively
+                        as more retailers and restaurants moved in as a result of the brewery's success.
+                    </p>
+                </div>
+            </div>
+
         </section>
-
-
-    </section>
 
 
 
