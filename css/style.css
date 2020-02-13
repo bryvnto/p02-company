@@ -87,6 +87,7 @@ input{
     padding: 1em;
     border: 1px solid #E5D8BF;
     border-radius: 4px;
+    text-align:left;
 }
 
 .border {
@@ -286,8 +287,70 @@ hr{
 }
 .form-button{
     font-family: 'Raleway', sans-serif;
+    text-align:center;
+    width:30%;
 }
 
 fieldset {
     color: #96939B;
 }
+
+
+
+.rate {
+   margin-left: 10%;
+    height: 46px;
+    padding: 0 10px 0px 0px;
+
+ 
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+ float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+ 
+outline-color:#CEC2B8;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #E5D8BF;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color:#CEC2B8;  }
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #CEC2B8;
+}
+
+
+body{
+    margin-bottom:120px;
+}
+
+.review-input{
+width:50%;
+height:100px;
+}
+
+.recommendation{
+    width:350px;}
+
+    .move{
+        width:300px;
+        float:center;
+    
+    }

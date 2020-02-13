@@ -385,14 +385,72 @@
                     </div>
                 </div>
             </form>
-        </section>
+         </section>
+        <section>
+            <h3>
+                Feedback form
+            </h3>
+            <div class="border">
+                <a href="#popup">Write a Review</a>
+            </div>
 
+            <section class="card" id="popup">
+                    <h3>Let us know how you like our products:</h3>
+                    Please select an item to review
+                    <div class="itemtype">
+                      
+                    <select name="item-type" id="item-type">
+                        <option value="#">Select One</option>
+                        <option value="dadhat">Dad Hat</option>
+                        <option value="tshirt">T-Shirt</option>
+                        <option value="coaster">Drink Coaster</option>
+                    </select> <br><br><br>
+                </div>
+                Overall Rating:
+                <div class="move">
+                    <div class="rate">
+                       
+                    <!--Code for star rating adapted from https://codepen.io/hesguru/pen/BaybqXv-->
+                                <input type="radio" id="star5" name="rate" value="5" />
+                                <label for="star5" title="text">5 stars</label>
+                                <input type="radio" id="star4" name="rate" value="4" />
+                                <label for="star4" title="text">4 stars</label>
+                                <input type="radio" id="star3" name="rate" value="3" />
+                                <label for="star3" title="text">3 stars</label>
+                                <input type="radio" id="star2" name="rate" value="2" />
+                                <label for="star2" title="text">2 stars</label>
+                                <input type="radio" id="star1" name="rate" value="1" />
+                                <label for="star1" title="text">1 star</label>
+                            </div>
+                            <br>
+                        </div>
+
+                            Would you recommend this product to a friend?
+                    <div class="recommendation">
+                            <form action="#">
+                               
+                                <input type="radio" name="radio-button"> Yes
+                                <input type="radio" name="radio-button"> No
+                            </form>
+                            <br>
+                         
+                        </div>
+                        Your Review:
+                        <div class="review">
+                            <input type="text" name="email" class="review-input">
+                            </div>
+                            <input type="submit" value="Submit" class="form-button">
+                    
+                              
+            </div>
+                
+             
+        </section>
 
 
     </section>
 
-        <hr class="spacer">
-        <hr class="spacer">
+
 
 </body>
 
