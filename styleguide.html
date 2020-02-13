@@ -290,7 +290,7 @@
         </section>
 
         <section>
-            <h3>Product Listing</h3>
+            <h3>Multi-Product Listing</h3>
 
             <div class="flex-container">
                 <div class="card">
@@ -300,7 +300,7 @@
                         <h4><b>Dad Hat</b></h4>
                         <p><em>Made using vegan + sustainable materials.</em> Ⓥ
                             <br>$25</p>
-                        <a href="#">Learn More</a>
+                        <a href="#" class="alt-button">Learn More</a>
                         <hr class="spacer">
                     </div>
                 </div>
@@ -312,30 +312,76 @@
                         <h4><b>T-Shirt</b></h4>
                         <p><em>Made using vegan + sustainable materials.</em> Ⓥ
                             <br>$15</p>
-                        <a href="#">Learn More</a>
+                        <a href="#" class="alt-button">Learn More</a>
+                        <hr class="spacer">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/mel-poole--zBSu3rYjNs-unsplash.jpg" alt="Hat " class="cardimg">
+                    <!--https://unsplash.com/photos/-zBSu3rYjNs-->
+                    <div class="container">
+                        <h4><b>Totebag</b></h4>
+                        <p><em>Made using vegan + sustainable materials.</em> Ⓥ
+                            <br>$2</p>
+                        <a href="#" class="alt-button">Learn More</a>
                         <hr class="spacer">
                     </div>
                 </div>
             </div>
         </section>
 
+        <section>
+            <h3>Single Detailed Product Listing</h3>
+            <section class="shader">
+
+                <div class="flex-container">
+                    <div class="text-box">
+                        <img src="img/taylor-8Vt2haq8NSQ-unsplash.jpg" alt="Hat " class="cardimg">
+                        <!--https://unsplash.com/photos/8Vt2haq8NSQ-->
+                    </div>
+
+                    <div class="text-box">
+                        <h3>Dad Hat</h3>
+                        <p>This eco-concious hat is a staple in our staff's wardrobe. It's airy, yet stable design
+                            allows for easy movement Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                            ducimus id fugit voluptates minus modi eveniet, quaerat quo quod. Vitae magni, neque
+                            distinctio autem esse excepturi. Adipisci corrupti laboriosam accusamus?</p>
+
+                        <p><em>Made using vegan + sustainable materials.</em> Ⓥ</p>
+                        <p>$25</p>
+
+                        <p>Quantity: <select name="quantity" id="quantity">
+                                <option value="#">Select One</option>
+                                <option value="master">1</option>
+                                <option value="visa">2</option>
+                                <option value="amex">3</option>
+                            </select></p>
+
+                        <p><a href="" class="alt-button">Add to Cart</a></p>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
         <section class="checkout-box">
             <h3>Checkout Cart</h3>
 
             <!--https://www.w3schools.com/howto/howto_css_checkout_form.asp-->
-           <div class="border">
-               <h4>Your Cart</h4>
-               <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
-               <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
-               <p><a href="#">Dad Hat</a> <span class="price">$25</span></p>
-               <hr>
-               <p>Total <span class="price" style="color:black"><b>$55</b></span></p>
-         
-            <input type="submit" value="Checkout" class="form-button">
-           </div>
+            <div class="border">
+                <h4>Your Cart</h4>
+                <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
+                <p><a href="#">T-Shirt</a> <span class="price">$15</span></p>
+                <p><a href="#">Dad Hat</a> <span class="price">$25</span></p>
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>$55</b></span></p>
+
+                <input type="submit" value="Checkout" class="form-button">
+            </div>
         </section>
 
-        <section>
+        <section class="shader">
             <h3>Payment Page</h3>
             <form action="#">
 
@@ -349,18 +395,19 @@
 
                 <div class="border">
                     <h4>Address</h4>
-                        All required fields marked with (*). <br>
-                        *First Name: <input type="text" name="first-name" class="text-input"> <br>
-                        *Last Name: <input type="text" name="last-name" class="text-input"><br>
-                        *Street Address: <input type="text" name="address" class="text-input"> <br>
-                        Apt: <input type="text" name="apt" class="text-input"><br>
-                        *City: <input type="text" name="city" class="text-input"> <br>
-                        *Province/State: <input type="text" name="province" class="text-input"><br>                            *Country: <select name="text" id="location" class="text-input">
-                            <option value="#">Select One</option>
-                            <option value="ca">Canada</option>
-                            <option value="us">United States</option>
-                        </select> <br>
-                        *Postal Code: <input type="text" name="postal" class="text-input">
+                    All required fields marked with (*). <br>
+                    *First Name: <input type="text" name="first-name" class="text-input"> <br>
+                    *Last Name: <input type="text" name="last-name" class="text-input"><br>
+                    *Street Address: <input type="text" name="address" class="text-input"> <br>
+                    Apt: <input type="text" name="apt" class="text-input"><br>
+                    *City: <input type="text" name="city" class="text-input"> <br>
+                    *Province/State: <input type="text" name="province" class="text-input"><br> *Country: <select
+                        name="text" id="location" class="text-input">
+                        <option value="#">Select One</option>
+                        <option value="ca">Canada</option>
+                        <option value="us">United States</option>
+                    </select> <br>
+                    *Postal Code: <input type="text" name="postal" class="text-input">
                 </div>
 
                 <div class="border">
@@ -386,7 +433,7 @@
                     </div>
                 </div>
             </form>
-         </section>
+        </section>
         <section>
             <h3>
                 Feedback form
@@ -396,10 +443,10 @@
             </div>
 
             <section class="card" id="popup">
-                    <h3>Let us know how you like our products:</h3>
-                    Please select an item to review
-                    <div class="itemtype">
-                      
+                <h3>Let us know how you like our products:</h3>
+                Please select an item to review
+                <div class="itemtype">
+
                     <select name="item-type" id="item-type">
                         <option value="#">Select One</option>
                         <option value="dadhat">Dad Hat</option>
@@ -410,60 +457,161 @@
                 Overall Rating:
                 <div class="move">
                     <div class="rate">
-                       
-                    <!--Code for star rating adapted from https://codepen.io/hesguru/pen/BaybqXv-->
-                                <input type="radio" id="star5" name="rate" value="5" />
-                                <label for="star5" title="text">5 stars</label>
-                                <input type="radio" id="star4" name="rate" value="4" />
-                                <label for="star4" title="text">4 stars</label>
-                                <input type="radio" id="star3" name="rate" value="3" />
-                                <label for="star3" title="text">3 stars</label>
-                                <input type="radio" id="star2" name="rate" value="2" />
-                                <label for="star2" title="text">2 stars</label>
-                                <input type="radio" id="star1" name="rate" value="1" />
-                                <label for="star1" title="text">1 star</label>
-                            </div>
-                            <br>
+
+                        <!--Code for star rating adapted from https://codepen.io/hesguru/pen/BaybqXv-->
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                    <br>
+                </div>
+
+                Would you recommend this product to a friend?
+                <div class="recommendation">
+                    <form action="#">
+
+                        <input type="radio" name="radio-button"> Yes
+                        <input type="radio" name="radio-button"> No
+                    </form>
+                    <br>
+
+                </div>
+                Your Review:
+                <div class="review">
+                    <input type="text" name="email" class="review-input">
+                </div>
+                <input type="submit" value="Submit" class="form-button">
+
+
+                </div>
+
+
+            </section>
+
+            <section>
+                <h3>Contact us</h3>
+
+                <div class="shader">
+                    <hr class="spacer">
+                    <h4>Call us at <a href="tel:+1 (604) 228-9923">(604) 228-9923</a></h4>
+                    <h4>Email us at <a href="mailto:info@rileyparkbrewing.co">info@rileyparkbrewing.co</a></h4>
+
+                    <div class="flex-container">
+                        <div class="text-box">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1302.3119357758405!2d-123.10190220840303!3d49.24561999713277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f7b5c006af%3A0x68d79a5ee508be7f!2s4402%20Main%20St%2C%20Vancouver%2C%20BC%20V5V%202M4!5e0!3m2!1sen!2sca!4v1581590804528!5m2!1sen!2sca"
+                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                class="cardimg"></iframe>
                         </div>
 
-                            Would you recommend this product to a friend?
-                    <div class="recommendation">
-                            <form action="#">
-                               
-                                <input type="radio" name="radio-button"> Yes
-                                <input type="radio" name="radio-button"> No
-                            </form>
-                            <br>
-                         
+                        <div class="text-box">
+                            <h3>Our Location</h3>
+                            <p>Situated in the heart of the Riley Park neighbourhood on the fascinating South Main strip
+                                of
+                                Vancouver, Riley Park Brewing Company is truely in the heart of the city, connecting
+                                East to West
+                                and North to South.
+                            </p>
+                            <h4><em>By Public Transit</em></h4>
+                            <p>Our location is easily accessible by the 25 bus that connects to the King Edward station
+                                on the
+                                Canada Line and the 3 Main bus that connects to the Main Street-Science World station on
+                                the Expo
+                                Line.</p>
+                            <h4><em>By Cycling</em></h4>
+                            <p>Bike racks are available at our front door. Let our staff know if you require any
+                                additional space for your bicycles.</p>
+                            <h4><em>By Car</em></h4>
+                            <p>Metered street parking is available.</p>
                         </div>
-                        Your Review:
-                        <div class="review">
-                            <input type="text" name="email" class="review-input">
-                            </div>
-                            <input type="submit" value="Submit" class="form-button">
-                    
-                              
-            </div>
-                
-             
+                    </div>
+
+                    Let us know how we are doing!
+                    <form action="#">
+                        First Name: <input type="text" name="search-field"><br>
+                        Last Name: <input type="text" name="search-field"><br>
+                        Email: <input type="text" name="search-field"><br>
+                        Message:<br><input type="text" name="email" class="review-input">
+                    </form><br>
+                    <input type="submit" value="Submit" class="form-button">
+                </div>
+            </section>
         </section>
 
         <section>
-<div class="border">
-    <h3>Contact us</h3>
-    Let us know how we are doing!
-    <form action="#">
-        First Name: <input type="text" name="search-field"><br>
-        Last Name: <input type="text" name="search-field"><br>
-        Email: <input type="text" name="search-field"><br>
-        Message:<br><input type="text" name="email" class="review-input">
-    </form><br>
-    <input type="submit" value="Submit" class="form-button">
-</div>
+            <h3>About</h3>
+
+            <div class="flex-container shader">
+                <div class="text-box">
+                    <img src="img/maggie-mccauley-SwhBBzk1lho-unsplash.jpg" alt="Hat " class="cardimg">
+                    <!--https://unsplash.com/photos/SwhBBzk1lho-->
+                </div>
+
+                <div class="text-box">
+                    <h3>Our Story</h3>
+                    <p>During a stroll in their childhood neighbourhood, siblings Benjamin and Isabelle Johnston spotted
+                        a
+                        large retail space for lease in the epicentre of Riley Park, and they knew what they wanted to
+                        do.
+                        They envisioned a space between the pretentious bars and the young nightclubs for the people of
+                        Riley Park and thus, the Riley Park Brewing Company was born.</p>
+
+                    <p>It was the perfect balance that Riley Park needed. The once sleepy neighbourhood became more
+                        lively
+                        as more retailers and restaurants moved in as a result of the brewery's success.
+                    </p>
+                </div>
+            </div>
+
         </section>
 
+        <section>
+            <h3>Blog</h3>
 
-    </section>
+            <div class="flex-container shader">
+                <div class="text-box">
+                    <img src="img/kelsey-chance-tAH2cA_BL5g-unsplash.jpg" alt="Hat " class="cardimg">
+                    <!--https://unsplash.com/photos/tAH2cA_BL5g-->
+                </div>
+
+                <div class="text-box">
+                    <h3>5 Year Anniversary</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, rerum delectus omnis quae
+                        perspiciatis voluptate tempore porro unde incidunt possimus. Ducimus aliquam culpa esse corrupti
+                        atque nam, qui obcaecati accusamus!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit adipisci fugit commodi nostrum
+                        explicabo ullam nemo totam, repellat similique aut deleniti alias molestiae quibusdam neque
+                        necessitatibus maiores quidem perspiciatis illum.</p>
+                    <p><a href="#" class="alt-button">Read More</a></p>
+                </div>
+            </div>
+
+            <div class="flex-container shader">
+
+                <div class="text-box">
+                    <h3>New Product Launch</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, rerum delectus omnis quae
+                        perspiciatis voluptate tempore porro unde incidunt possimus. Ducimus aliquam culpa esse corrupti
+                        atque nam, qui obcaecati accusamus!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit adipisci fugit commodi nostrum
+                        explicabo ullam nemo totam, repellat similique aut deleniti alias molestiae quibusdam neque
+                        necessitatibus maiores quidem perspiciatis illum.</p>
+                    <p><a href="#" class="alt-button">Read More</a></p>
+                </div>
+
+                <div class="text-box">
+                    <img src="img/elevate-nYgy58eb9aw-unsplash.jpg" alt="Hat " class="cardimg">
+                </div>
+            </div>
+
+        </section>
 
 
 
