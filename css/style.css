@@ -265,6 +265,11 @@ section {
     text-align: center;
 }
 
+#footer {
+    float: right;
+    font-size: 0.5em;
+}
+
 #def {
     text-align: center;
 }
