@@ -265,6 +265,90 @@ section {
     text-align: center;
 }
 
+#about-header {
+    height: 95vh;
+    background-image: url(https://images.unsplash.com/photo-1560105214-ad76e8531c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
+    /*https://unsplash.com/photos/CdNvYPwupas*/
+    background-color: rgba(0, 0, 0, 1);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width:100%;
+    top: 0;
+  
+    font-size: 2em;
+    color: white; /*#DAD2D8;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#support-header {
+    height: 95vh;
+    background-image: url(https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    /*https://unsplash.com/photos/Ox6SW103KtM*/
+    background-color: rgba(0, 0, 0, 1);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width:100%;
+    top: 0;
+  
+    font-size: 2em;
+    color: white; /*#DAD2D8;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#products-header {
+    height: 95vh;
+    background-image: url(https://images.unsplash.com/photo-1579636601263-f97b5e8a57b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
+    /*https://unsplash.com/photos/fDx4zHpnlOM*/
+    background-color: rgba(0, 0, 0, 1);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width:100%;
+    top: 0;
+  
+    font-size: 2em;
+    color: white; /*#DAD2D8;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#blog-header {
+    height: 95vh;
+    background-image: url(/img/elevate-nYgy58eb9aw-unsplash.jpg);
+    /*https://unsplash.com/photos/fDx4zHpnlOM*/
+    background-color: rgba(0, 0, 0, 1);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width:100%;
+    top: 0;
+  
+    font-size: 2em;
+    color: white; /*#DAD2D8;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #footer {
     float: right;
     font-size: 0.5em;
