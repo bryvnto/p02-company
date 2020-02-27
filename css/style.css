@@ -347,7 +347,7 @@ section {
 
 #blog-header {
     height: 95vh;
-    background-image: url(/img/elevate-nYgy58eb9aw-unsplash.jpg);
+    background-image: url(https://images.unsplash.com/photo-1532635241-17e820acc59f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1903&q=80);
     /*https://unsplash.com/photos/fDx4zHpnlOM*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
@@ -428,9 +428,9 @@ section {
 }
 
 .card {
-    /* https://www.w3schools.com/howto/howto_css_cards.asp*/
+    /* https://www.w3schools.com/howto/howto_css_cards.asp*
     box-shadow: 0 0.2rem 0.2rem rgb(0, 0, 0, 0.3);
-    border-radius: 0.3rem;
+    border-radius: 0.3rem;*/
     margin: 2.4em;
     
     flex-basis: 15em;
@@ -438,9 +438,9 @@ section {
 }
 
 .card:hover {
-    /* https://www.w3schools.com/howto/howto_css_cards.asp*/
+    /* https://www.w3schools.com/howto/howto_css_cards.asp
     box-shadow: 0 0.8rem 0.8rem rgb(0, 0, 0, 0.3);
-    border-radius: 0.3rem;
+    border-radius: 0.3rem;*/
     margin: 2.4em;
     
     flex-basis: 15em;
