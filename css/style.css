@@ -283,7 +283,7 @@ section {
 }
 
 #about-header {
-    height: 95vh;
+    height: 50vh;
     background-image: url(https://images.unsplash.com/photo-1560105214-ad76e8531c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
     /*https://unsplash.com/photos/CdNvYPwupas*/
     background-color: rgba(0, 0, 0, 1);
@@ -304,7 +304,7 @@ section {
 }
 
 #support-header {
-    height: 95vh;
+    height: 45vh;
     background-image: url(https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
     /*https://unsplash.com/photos/Ox6SW103KtM*/
     background-color: rgba(0, 0, 0, 1);
@@ -325,7 +325,7 @@ section {
 }
 
 #products-header {
-    height: 95vh;
+    height: 50vh;
     background-image: url(https://images.unsplash.com/photo-1579636601263-f97b5e8a57b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
     /*https://unsplash.com/photos/fDx4zHpnlOM*/
     background-color: rgba(0, 0, 0, 1);
@@ -346,7 +346,7 @@ section {
 }
 
 #blog-header {
-    height: 95vh;
+    height: 50vh;
     background-image: url(https://images.unsplash.com/photo-1532635241-17e820acc59f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1903&q=80);
     /*https://unsplash.com/photos/fDx4zHpnlOM*/
     background-color: rgba(0, 0, 0, 1);
@@ -367,8 +367,8 @@ section {
 }
 
 #cherry-header {
-    height: 95vh;
-    background-image: url(/img/cherries.jpg);
+    height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1530989282150-4feaa98e80aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
     /*https://unsplash.com/photos/3VBmszoRVOg*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
@@ -388,8 +388,8 @@ section {
 }
 
 #lime-header {
-    height: 95vh;
-    background-image: url(/img/limes.jpg);
+    height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1579636601263-f97b5e8a57b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
     /*https://unsplash.com/photos/fDx4zHpnlOM*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
