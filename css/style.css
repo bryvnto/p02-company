@@ -137,21 +137,21 @@ a:hover {
     font-size: 0.75em;
     margin-left: 1.4rem;
     margin-right: 1.4rem;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     margin-bottom: 0.8rem;
     float: right;
 }
 
 .nav-button:hover {
     border: none;
-    color: #E5D8BF;
+    color: black;
+    background-color: #fefe33;
     padding: 0.5em;
     text-align: center;
     text-decoration: none;
     display:inline-block;
     font-size: 0.75em;
     font-style: italic;
-    border-radius: 5px;
     margin-left: 1.4rem;
     margin-right: 1.4rem;
     margin-top: 1rem;
@@ -170,7 +170,7 @@ a:hover {
     font-size: 0.75em;
     margin-left: 1.4rem;
     margin-right: 1.4rem;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     margin-bottom: 0.8rem;
     float: right;
     border-radius: 0.3rem;
@@ -179,7 +179,7 @@ a:hover {
 .add-button:hover {
     border: 1px;
     color: black;/*#D19F74;*/
-    background-color: white;
+    background-color: #fefe33;
     padding: 0.5em;
     text-align: center;
     text-decoration: none;
@@ -198,6 +198,23 @@ a:hover {
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: white;/*#D19F74;*/
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1.25em;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    float: left;
+}
+
+.nav-title:hover {
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #fefe33;/*#D19F74;*/
     padding: 0.5em;
     text-align: center;
     text-decoration: none;
@@ -349,6 +366,48 @@ section {
     text-align: center;
 }
 
+#cherry-header {
+    height: 95vh;
+    background-image: url(/img/cherries.jpg);
+    /*https://unsplash.com/photos/3VBmszoRVOg*/
+    background-color: rgba(0, 0, 0, 1);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width:100%;
+    top: 0;
+  
+    font-size: 2em;
+    color: white; /*#DAD2D8;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#lime-header {
+    height: 95vh;
+    background-image: url(/img/limes.jpg);
+    /*https://unsplash.com/photos/fDx4zHpnlOM*/
+    background-color: rgba(0, 0, 0, 1);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    width:100%;
+    top: 0;
+  
+    font-size: 2em;
+    color: white; /*#DAD2D8;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #footer {
     float: right;
     font-size: 0.5em;
@@ -390,7 +449,7 @@ section {
 
 .flex-box {
     flex-basis: 15em;
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
 .text-box{
@@ -419,23 +478,23 @@ section {
 }
 
 #colour1 {
-background: #96939B;
+    background: #fefe33;
 }
 
 #colour2 {
-    background: #DAD2D8;
+    background: #922a28;
 }
 
 #colour3{
-    background: #E5D8BF;
+    background: #d8d74b;
 }
 
 #colour4{
-    background: #CEC2B8;
+    background: #f9d348;
 }
 
 #colour5{
-    background: #B6A1A8;
+    background: #94c5fa;
 }
 
 .flex-container{
