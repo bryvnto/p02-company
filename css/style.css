@@ -264,7 +264,7 @@ section {
 
 #header {
     height: 95vh;
-    background-image: url(https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8);
+    background-image: url(/img/2glasses.jpeg);
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
     background-position: center;
@@ -284,7 +284,7 @@ section {
 
 #about-header {
     height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1560105214-ad76e8531c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
+    background-image: url(/img/storefront.jpeg);
     /*https://unsplash.com/photos/CdNvYPwupas*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
@@ -305,7 +305,7 @@ section {
 
 #support-header {
     height: 45vh;
-    background-image: url(https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-image: url(/img/customer-service.jpg);
     /*https://unsplash.com/photos/Ox6SW103KtM*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
@@ -326,7 +326,7 @@ section {
 
 #products-header {
     height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1579636601263-f97b5e8a57b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
+    background-image: url(/img/lemons-limes.jpg);
     /*https://unsplash.com/photos/fDx4zHpnlOM*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
@@ -347,49 +347,7 @@ section {
 
 #blog-header {
     height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1532635241-17e820acc59f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1903&q=80);
-    /*https://unsplash.com/photos/fDx4zHpnlOM*/
-    background-color: rgba(0, 0, 0, 1);
-    background-size:cover;
-    background-position: center;
-    margin-bottom: 50px;
-    padding-left: 0px;
-    width:100%;
-    top: 0;
-  
-    font-size: 2em;
-    color: white; /*#DAD2D8;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#newproduct-header {
-    height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1532635241-17e820acc59f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1903&q=80);
-    /*https://unsplash.com/photos/fDx4zHpnlOM*/
-    background-color: rgba(0, 0, 0, 1);
-    background-size:cover;
-    background-position: center;
-    margin-bottom: 50px;
-    padding-left: 0px;
-    width:100%;
-    top: 0;
-  
-    font-size: 2em;
-    color: white; /*#DAD2D8;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-#anniversary-header {
-    height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-    /*https://unsplash.com/photos/tAH2cA_BL5g*/
+    background-image: url(/img/elevate-nYgy58eb9aw-unsplash.jpg);
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
     background-position: center;
@@ -409,7 +367,7 @@ section {
 
 #cherry-header {
     height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1530989282150-4feaa98e80aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-image: url(/img/cherries.jpg);
     /*https://unsplash.com/photos/3VBmszoRVOg*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
@@ -430,7 +388,7 @@ section {
 
 #lime-header {
     height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1579636601263-f97b5e8a57b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
+    background-image: url(/img/limes.jpg);
     /*https://unsplash.com/photos/fDx4zHpnlOM*/
     background-color: rgba(0, 0, 0, 1);
     background-size:cover;
@@ -450,8 +408,16 @@ section {
 }
 
 #footer {
-    float: right;
     font-size: 0.5em;
+}
+
+.leftContent {
+    float: left;
+    padding-right: 1em;
+}
+
+.rightContent {
+    float:right;
 }
 
 .tint {
@@ -631,6 +597,3 @@ height:100px;
         float:center;
     
     }
-#no_underline{
-    text-decoration: none;
-}
