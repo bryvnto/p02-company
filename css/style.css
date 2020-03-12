@@ -173,7 +173,7 @@ a:hover {
     margin-right: 1.4rem;
     margin-top: 1rem;
     margin-bottom: 0.8rem;
-    float: right;
+
     border-radius: 0.3rem;
 }
 
@@ -190,7 +190,7 @@ a:hover {
     margin-right: 1.4rem;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-    float: right;
+  
     border-radius: 0.3rem;
 }
 
@@ -208,7 +208,7 @@ a:hover {
     margin-right: 1.4rem;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-    float: left;
+
 }
 
 .nav-title:hover {
@@ -225,7 +225,7 @@ a:hover {
     margin-right: 1.4rem;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-    float: left;
+  
 }
 
 
