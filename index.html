@@ -14,9 +14,8 @@
 <body>
 
 
-    <div class="topnav" id="myTopnav">
+    <div class="nav" id="mainNav">
         <header>
-            <!--help with nav bar from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
             <a href="index.html" class="nav-title float-left" id="title">LIVE KOMBUCHA</a>
         </header>
         <a href="checkout.html" class="nav-button float-right">
@@ -27,7 +26,7 @@
         <a href="support.html" class="nav-button float-right">SUPPORT</a>
         <a href="blog.html" class="nav-button float-right">BLOG</a>
         <a href="about.html" class="nav-button float-right">ABOUT</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
             <i class="fa fa-bars"></i></a>
     </div>
 
@@ -55,7 +54,7 @@
 
         <div class="flex-container">
             <div class="text-box">
-                <img src="img/ginger_lime.png" alt="ginger lime kombucha" class="cardimg">
+                <img src="img/ginger_lime.png" alt="ginger lime kombucha beverage in a bottle" class="cardimg">
 
             </div>
 
@@ -85,24 +84,34 @@
         <h3>New Updates</h3>
         <div class="flex-container">
             <div class="text-box">
-                <img src="img/kelsey-chance-tAH2cA_BL5g-unsplash.jpg" alt="Hat " class="cardimg">
+                <img src="img/kelsey-chance-tAH2cA_BL5g-unsplash.jpg" alt="Group of people tossing wine glass." class="cardimg">
                 <!--https://unsplash.com/photos/tAH2cA_BL5g-->
             </div>
 
             <div class="text-box">
                 <h3>5 Year Anniversary</h3>
                 <p> We have been in business for 5 years! We want your help to celebrate!</p>
-                <p><a href="blog/anniversary.html" class="add-button">Read More</a></p>
+                <p>It was 5 whole years ago that we decided to put all of our faith in a single space in Riley Park,
+                    and thanks to our loyal customers, those 5 years have really paid off. We went into the project not
+                    really sure what to expect, but are overwhelmed with the outcome.
+
+                    We cannot emphasize enough that the success of our company could not have been possible without your
+                    support, so we want your help to celebrate! Join us on May 3rd at our Riley Park location for a
+                    night of kombucha, community and fun. We have also partnered with local vegan food hub Chickpea who
+                    are going to supply snacks for the night.
+                </p>
+                <a href="blog.html" class="add-button">Read More</a>
             </div>
         </div>
     </section>
 
 
-    <section id="footer">
+    <div id="footer">
         <a href="references.html" class="leftContent">References</a>
         <a href="styleguide.html" class="leftContent">Style Guide</a>
+        <a href="https://github.com/bryvnto/p02-company" class="leftContent">GitHub</a>
         <a href="index.html" class="rightContent">&copy; 2020 Live Kombucha. All Rights Reserved.</a>
-    </section>
+    </div>
     <script src="js/script.js"></script>
 </body>
 

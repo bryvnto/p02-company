@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap" rel="stylesheet">
     <title>Blog | LIVE KOMBUCHA</title>
 </head>
 
 <body>
 
-    <div class="topnav" id="myTopnav">
+    
+    <div class="nav" id="mainNav">
         <header>
-            <!--help with nav bar from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
             <a href="index.html" class="nav-title float-left" id="title">LIVE KOMBUCHA</a>
         </header>
         <a href="checkout.html" class="nav-button float-right">
@@ -26,7 +26,7 @@
         <a href="support.html" class="nav-button float-right">SUPPORT</a>
         <a href="blog.html" class="nav-button float-right">BLOG</a>
         <a href="about.html" class="nav-button float-right">ABOUT</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
             <i class="fa fa-bars"></i></a>
     </div>
 
@@ -39,7 +39,7 @@
     <section>
         <div class="flex-container shader">
             <div class="text-box">
-                <img src="img/kelsey-chance-tAH2cA_BL5g-unsplash.jpg" alt="Hat " class="cardimg">
+                <img src="img/kelsey-chance-tAH2cA_BL5g-unsplash.jpg" alt="Group of people tossing wine glass. " class="cardimg">
                 <!--https://unsplash.com/photos/tAH2cA_BL5g-->
             </div>
 
@@ -69,17 +69,18 @@
             </div>
 
             <div class="text-box">
-                <img src="img/elevate-nYgy58eb9aw-unsplash.jpg" alt="Hat " class="cardimg">
+                <img src="img/elevate-nYgy58eb9aw-unsplash.jpg" alt="A group of women laughing in a group holding drinks" class="cardimg">
             </div>
         </div>
 
     </section>
 
-    <section id="footer">
+    <div id="footer">
         <a href="references.html" class="leftContent">References</a>
         <a href="styleguide.html" class="leftContent">Style Guide</a>
+        <a href="https://github.com/bryvnto/p02-company" class="leftContent">GitHub</a>
         <a href="index.html" class="rightContent">&copy; 2020 Live Kombucha. All Rights Reserved.</a>
-    </section>
+    </div>
     <script src="js/script.js"></script>
 </body>
 
