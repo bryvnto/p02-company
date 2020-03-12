@@ -1,5 +1,5 @@
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'lausanneregular', sans-serif;
     scroll-behavior: smooth;
     margin-right: auto;
     margin-left:auto;
@@ -46,20 +46,20 @@
 
 h1 {
     font-size: 1.8em;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'lausanneregular', sans-serif;
     font-style: italic;
 }
 
 h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'lausanneregular', sans-serif;
 }
 
 h3 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'lausanneregular', sans-serif;
 }
 
 h4 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'lausanneregular', sans-serif;
 }
 
 p, code, table, form, ol, ul{
@@ -506,7 +506,7 @@ hr{
     color: #CEC2B8;
 }
 .form-button{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'lausanneregular', sans-serif;
     text-align:center;
     width:30%;
 }
@@ -628,28 +628,6 @@ height:100px;
         }
       }
 
-      .nav-title {
-        border: none;
-        font-family: 'Josefin Sans', sans-serif;
-       /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
-        color: white;/*#D19F74;*/
-        text-decoration: none;
-        display:inline-block;
-        font-size: 1.5em;
-    
-    }
-    
-    .nav-title :hover {
-        border: none;
-        font-family: 'Josefin Sans', sans-serif;
-       /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
-        color: #fefe33;/*#D19F74;*/
-      
-        text-decoration: none;
-        display:inline-block;
-    
-      
-    }
     #title{
         font-size:2em;
         font-family:'lausanneregular', Arial, sans-serif;
