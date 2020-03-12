@@ -394,6 +394,7 @@ section {
     left: 0;
     top: 0;
     background: white;
+    padding-top: 15px;
     width: 100%;
     text-align: center;
 }
@@ -515,6 +516,11 @@ height:100px;
     width:300px;
     float:center;
     
+}
+
+.guide-nav-item {
+    float:right;
+    padding:10px
 }
 
 .float-left {
