@@ -6,6 +6,16 @@
     text-align: center;
 }
 
+/*Help with linking fonts taken from https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website*/
+@font-face {
+    font-family: 'lausanneregular';
+    src: url('lausanne_1-webfont.woff2') format('woff2'),
+         url('lausanne_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Images */
 
 
@@ -566,6 +576,7 @@ height:100px;
     }
 
 
+    /*Code for dropdown menu adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
     .topnav {
         background-color: white;
         overflow: hidden;
@@ -641,6 +652,9 @@ height:100px;
     }
     #title{
         font-size:2em;
+        font-family:'lausanneregular', Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
     }
 
     #title:hover{
