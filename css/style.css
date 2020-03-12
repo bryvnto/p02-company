@@ -158,7 +158,7 @@ a:hover {
 
 
 .add-button {
-    border: 2px solid #d8d74b;
+    border: 2px solid #d8d74c;
     background-color:#d8d74b;
     color: black;/*#D19F74;*/
     padding: 0.5em;
@@ -175,7 +175,7 @@ a:hover {
 }
 
 .add-button:hover {
-    border: 2px solid #d8d74b;
+    border: 2px solid #d8d74c;
     color: black;/*#D19F74;*/
     background-color: #fefe33;
     padding: 0.5em;
@@ -514,7 +514,6 @@ height:100px;
 
 .move{
     width:300px;
-    float:center;
     
 }
 
